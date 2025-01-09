@@ -6,13 +6,29 @@
     cursor: url('../assets/cursor.png'), auto;
 }
 
+nav {
+    height: 80px;
+    background-color: rgb(5,52,36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0cqh;
+}
+
+nav a{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
 html, body {
     height: 100%;
     width: 100%;
 }
 
 html {
-    background-color: rgb(4,56,39);
+    background-color: rgb(5, 52, 36);
 }
 
 body {
@@ -35,16 +51,12 @@ body {
     color: white;
 }
 
-#link-container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
+
 
 .link {
     text-decoration: none;
     color:rgb(255, 255, 255);
-    font-family: Roboto;
+    font-family: Playfair;
     font-size: 0.5em;
 }
 
