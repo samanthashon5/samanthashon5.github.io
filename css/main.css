@@ -6,6 +6,40 @@
     cursor: url('../assets/cursor.png'), auto;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+html {
+    background-color: rgb(14, 64, 48);
+}
+
+body {
+    overflow-x: hidden;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+#name{
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+    -webkit-transform:scale(2.5,1); /* Safari and Chrome */
+    transform:scale(1,3); /* W3C */
+    font-size: 1em;
+    letter-spacing: -0.25vh;
+    color: white;
+}
+
+#link-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 .link {
     text-decoration: none;
     color:rgb(255, 255, 255);
@@ -19,8 +53,8 @@
 }
 
 button {
-    padding: 1rem 3rem;
-    font-size: 1rem;
+    padding: 0.5rem 2.0rem;
+    font-size: 0.5em;
     border: none;
     color: white;
     background-color: rgb(4, 90, 61);
