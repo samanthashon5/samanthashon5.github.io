@@ -6,27 +6,6 @@
     cursor: url('../assets/cursor.png'), auto;
 }
 
-nav {
-    height: 80px;
-    background-color: rgb(5, 52, 36);
-    display: flex;
-    justify-content: space-between; /* Distributes space between child elements */
-    align-items: center; /* Vertically aligns items */
-    padding: 0 calc((100vw - 1300px) / 2); /* Centers content with custom padding */
-    position: fixed; /* Fixes the nav to the viewport */
-    top: 0; /* Positions it at the top */
-    left: 0; /* Aligns it to the left edge */
-    width: 100%; /* Ensures it spans the full width */
-    z-index: 1000; /* Ensures it appears above other elements */
-}
-
-
-nav a{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
 .link {
     text-decoration: none;
     color:rgb(255, 255, 255);
@@ -37,27 +16,6 @@ nav a{
 .link:hover {
     opacity: 40%;
     transition: all 0.5s ease-in-out;
-}
-
-.name {
-    background-color: rgb(5, 52, 36);
-}
-.name-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 95vh;
-    padding: 3rem calc((100vw - 1300px) / 2);
-}
-
-.center {
-    text-align: center;
-    font-weight: 600;
-    display: inline-block;
-    -webkit-transform:scale(1,3); /* Safari and Chrome */
-    transform:scale(1,3); /* W3C */
-    font-size: 1em;
-    letter-spacing: -0.25vh;
-    color: white;
 }
 
 button {
