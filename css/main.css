@@ -15,6 +15,7 @@ html {
 }
 
 body {
+    margin-top: 50px; /* Adjust this value based on the height of #nav-items */
     overflow-x: hidden;
     display: flex;
     text-align: center;
@@ -22,6 +23,7 @@ body {
     justify-content: center;
     flex-direction: column; 
 }
+
 
 
 #name{
@@ -37,8 +39,14 @@ body {
 
 #nav-items {
     display: flex;
-    justify-content: space-evenly; /* Distributes links evenly with equal spacing */
-    width: 100%; /* Spans the full width of the page */
+    justify-content: space-evenly; /* Distributes links evenly */
+    width: 100%; /* Spans the full width of the screen */
+    position: fixed; /* Fixes the container at the top of the screen */
+    top: 0; /* Aligns it at the very top */
+    left: 0; /* Ensures it starts at the left edge */
+    background-color: rgb(14, 64, 48); /* Matches the page background or adds contrast */
+    padding: 1em 0; /* Adds vertical padding for better spacing */
+    z-index: 1000; /* Ensures it appears above other content */
 }
 
 
