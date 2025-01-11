@@ -35,7 +35,7 @@ body {
     color: white;
 }
 
-#link-container {
+#nav-items {
     display: flex;
     justify-content: space-evenly; /* Distributes links evenly with equal spacing */
     width: 100%; /* Spans the full width of the page */
