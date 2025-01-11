@@ -56,6 +56,8 @@ body {
 
 #buttons {
     display: flex;
+    position: absolute;
+    bottom: 2px;
     justify-content: space-evenly;
     width: 100%;
 }
