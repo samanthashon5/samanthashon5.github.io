@@ -15,7 +15,6 @@ html {
 }
 
 body {
-    margin-top: 60px; /* Adjust this value based on the height of the #link-container */
     overflow-x: hidden;
     display: flex;
     text-align: center;
@@ -40,19 +39,13 @@ body {
     display: flex;
     justify-content: space-evenly; /* Distributes links evenly with equal spacing */
     width: 100%; /* Spans the full width of the page */
-    position: fixed; /* Fixes the container at the top of the viewport */
-    top: 0; /* Aligns the container to the top of the screen */
-    left: 0; /* Ensures it starts at the left edge */
-    background-color: rgb(14, 64, 48); /* Matches the page background or adds a contrasting background */
-    padding: 1em 0; /* Adds vertical padding for the links */
-    z-index: 1000; /* Ensures the container appears above other content */
 }
 
 
 .link {
     text-decoration: none;
     color:rgb(255, 255, 255);
-    font-family: Playfair;
+    font-family: Roboto;
     font-size: 0.5em;
 }
 
