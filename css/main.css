@@ -144,8 +144,8 @@ button:hover {
 
 #guy {
     position: fixed;
-    bottom: 3;
-    left: 0;
+    bottom: 15%;
+    left: 25%;
     z-index: 1000;
     width: 200px;
     height: auto;
