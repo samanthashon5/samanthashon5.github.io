@@ -54,7 +54,7 @@ body {
     position: fixed; /* Fixes the container at the top of the screen */
     top: 0; /* Aligns it at the very top */
     left: 0; /* Ensures it starts at the left edge */
-    background-color: rgb(238,93,108); /* Matches the page background or adds contrast */
+    background-color: rgb(0,0,0); /* Matches the page background or adds contrast */
     padding: 1em 0; /* Adds vertical padding for better spacing */
     z-index: 1000; /* Ensures it appears above other content */
 }
