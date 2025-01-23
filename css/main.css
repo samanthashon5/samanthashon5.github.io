@@ -49,6 +49,7 @@ body {
     z-index: 2000;
     width: 100px;
     height: auto;
+}
 
 #star2-gif {
     position: fixed;
