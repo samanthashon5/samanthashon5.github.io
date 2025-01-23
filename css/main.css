@@ -42,6 +42,13 @@ body {
     width:100px;
     height: auto;
 }
+#starbottom-gif {
+    position:fixed;
+    top: 10;
+    left: 0;
+    z-index: 2000;
+    width: 100px;
+    height: auto;
 
 #star2-gif {
     position: fixed;
