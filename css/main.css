@@ -83,8 +83,8 @@ body {
 
 button {
     padding: 0.5rem 2.0rem;
-    font-size: 0.5em;
-    -webkit-transform:scale(.8,0.4); /* Safari and Chrome */
+    font-size: 1.5em;
+    -webkit-transform:scale(.6,0.4); /* Safari and Chrome */
     transform:scale(0.4,1.0); /* W3C */
     border: none;
     color: white;
