@@ -34,7 +34,17 @@ body {
     width: 100px;
     height: auto;
 }
-    
+
+#moon {
+    position: fixed;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 2000;
+    width: 150px;
+    height: auto;
+}
+
 #name{
     text-align: center;
     font-weight: 700;
