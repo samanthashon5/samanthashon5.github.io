@@ -30,7 +30,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 2000;
     width: 100px;
     height: auto;
 }
@@ -38,9 +38,9 @@ body {
 #moon {
     position: fixed;
     top: 0;
-    right: 50%;
+    right: 65%;
     transform: translateX(50%);
-    z-index: 2000;
+    z-index: 3000;
     width: 150px;
     height: auto;
 }
