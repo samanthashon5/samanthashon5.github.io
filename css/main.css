@@ -36,15 +36,15 @@ body {
 }
 #starright-gif {
     position: fixed;
-    top: 3;
-    left: 0.5;
+    top: 8%;
+    left: 10%;
     z-index:2000;
     width:200px;
     height: auto;
 }
 #starbottom-gif {
     position:fixed;
-    top: 10;
+    top: 15%;
     left: 0;
     z-index: 2000;
     width: 250px;
@@ -60,10 +60,19 @@ body {
     height: auto;
     margin: 10px;
 }
+#star2top-gif {
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    z-index: 2000;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
 
 #moon {
     position: fixed;
-    top: 10;
+    top: 10%;
     right: 35%;
     transform: translateX(35%);
     z-index: 2000;
