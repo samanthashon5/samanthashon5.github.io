@@ -38,9 +38,9 @@ body {
 #moon {
     position: fixed;
     top: 0;
-    right: 65%;
-    transform: translateX(50%);
-    z-index: 3000;
+    right: 35%;
+    transform: translateX(35%);
+    z-index: 5000;
     width: 150px;
     height: auto;
 }
