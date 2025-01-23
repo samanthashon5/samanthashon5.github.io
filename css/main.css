@@ -50,6 +50,14 @@ body {
     width: 250px;
     height: auto;
 }
+#starbottom2-gif {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    z-index: 2000;
+    width: 250px;
+    height: auto;
+}
 
 #star2-gif {
     position: fixed;
