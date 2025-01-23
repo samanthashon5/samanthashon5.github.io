@@ -35,12 +35,22 @@ body {
     height: auto;
 }
 
+#star2-gif {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
 #moon {
     position: fixed;
-    top: 0;
+    top: 50;
     right: 35%;
     transform: translateX(35%);
-    z-index: 6000;
+    z-index: 2000;
     width: 150px;
     height: auto;
 }
