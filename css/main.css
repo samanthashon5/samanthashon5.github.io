@@ -136,9 +136,9 @@ button:hover {
 #guy {
     position: fixed;
     bottom: 3;
-    left: 3;
+    left: 0;
     z-index: 1000;
-    width: 250px;
+    width: 150px;
     height: auto;
     margin: 10px;
 }
