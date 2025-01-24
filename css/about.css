@@ -57,6 +57,9 @@ body {
     font-size: 4vh;
     line-height: 7vh;
     text-align: justify;
+    font-weight: 400;
+    -webkit-transform:scale(2.5,1); /* Safari and Chrome */
+    transform:scale(1,3); /* W3C */    
 }
 #tag{
     position: fixed;
