@@ -21,9 +21,12 @@ body {
 }
 
 #back-arrow {
-    height: 3vh;
-    width: 3vh;
-    margin-bottom: 5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width: 150px;
+    height: auto;
 }
 #back-arrow:hover {
     transform: scale(1.75);
