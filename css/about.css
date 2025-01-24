@@ -33,3 +33,7 @@ body {
 
 #title {
     color: white;
+    transform: scaleY(1.2);
+    font-size: 10vh;
+    margin-bottom: 5vh;
+}
