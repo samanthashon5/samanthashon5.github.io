@@ -47,29 +47,27 @@ body {
     right: 50%;
 }
 
+#profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 0 auto;
+}
 #profile-picture {
     width: 50vw;
-    right: 50%;
-    top: 20%;
+    height: auto;
+    margin-bottom: 2vh;
 }
 
 .description {
     color: white;
     font-family: Roboto;
     font-size: 2vh;
-    line-height: 5vh;
-    text-align: justify;
+    line-height: 1.5vh;
+    text-align: center;
     font-weight: 400;
-    -webkit-transform:scale(2.5,1); /* Safari and Chrome */
-    transform:scale(1,3); /* W3C */    
-    right: 50%;
-    top: 50%;
-}
-#tag{
-    position: fixed;
-    right:2px;
-    bottom:2px;
-    color: white;
-    font-weight: 100;
-    font-size: 2vh;
+    max-width: 80%;
+    margin: 0 auto;
 }
