@@ -15,5 +15,13 @@ html {
 }
 
 body {
-    
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+}
 
+#back-arrow{
+    height: 3vh;
+    width: 3vh;
+    margin-bottom: 5vh;
+}
