@@ -42,4 +42,13 @@ body {
     margin-bottom: 5vh;
 }
 
+#profile-picture {
+    width: 200vw;
+}
+
+#name {
+    color: white;
+    font-family: Roboto;
+    
+
 
