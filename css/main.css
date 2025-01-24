@@ -112,6 +112,15 @@ body {
     height: auto;
     margin: 10px;
 }
+#starbottomleft2-gif {
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+    z-index: 2000;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
 
 #moon {
     position: fixed;
