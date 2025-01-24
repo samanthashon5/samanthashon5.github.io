@@ -22,8 +22,8 @@ body {
 
 #back-arrow {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 3%;
+    left: 3%;
     z-index: 2000;
     width: 125px;
     height: auto;
