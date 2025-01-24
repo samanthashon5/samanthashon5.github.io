@@ -94,6 +94,15 @@ body {
     height: auto;
     margin: 10px;
 }
+#startop2-gif {
+    position: fixed;
+    bottom: 23%;
+    right: 0;
+    z-index: 2000;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
 
 #moon {
     position: fixed;
