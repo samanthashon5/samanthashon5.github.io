@@ -49,6 +49,8 @@ body {
 
 #profile-picture {
     width: 50vw;
+    right: 50%;
+    top: 20%;
 }
 
 .description {
