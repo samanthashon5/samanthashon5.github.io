@@ -60,4 +60,10 @@ body {
     margin-bottom: 2rem;
 }
 
-
+.description {
+    color: white;
+    font-family: Roboto;
+    font-size: 4vh;
+    line-height: 7vh;
+    text-align: justify;
+}
