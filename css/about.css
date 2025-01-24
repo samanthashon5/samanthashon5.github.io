@@ -67,3 +67,11 @@ body {
     line-height: 7vh;
     text-align: justify;
 }
+#tag{
+    position: fixed;
+    right:2px;
+    bottom:2px;
+    color: white;
+    font-weight: 100;
+    font-size: 2vh;
+}
