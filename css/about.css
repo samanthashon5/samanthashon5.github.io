@@ -71,5 +71,5 @@ body {
     max-width: 80%;
     margin: 5vh auto 0;
     -webkit-transform:scale(2.5,1); /* Safari and Chrome */
-    transform:none; /* W3C */
+    transform:(2.5,1); /* W3C */
 }
