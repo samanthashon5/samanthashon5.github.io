@@ -194,7 +194,17 @@ button:hover {
     transition: all 0.5s ease-in-out;
 }
 
-#copy-button
+#copy-button {
+        margin-left: 1vh;
+    height: 3vh;
+    width: 3vh;
+}
+
+#copy-button:hover{
+    opacity: 60%;
+    transition: all 0.5s ease-in-out;
+}
+
 #guy {
     position: fixed;
     bottom: 12%;
