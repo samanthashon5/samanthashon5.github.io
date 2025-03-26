@@ -194,15 +194,10 @@ button:hover {
     transition: all 0.5s ease-in-out;
 }
 
-#copy-button:hover{
-    opacity: 60%;
-    transition: all 0.5s ease-in-out;
-}
-
 #guy {
     position: fixed;
-    bottom: 12%;
-    left: 25%;
+    bottom: 10%;
+    left: 20%;
     z-index: 1000;
     width: 200px;
     height: auto;
