@@ -204,6 +204,7 @@ button:hover {
     color: white;
     font-family: Roboto;
     background-color: rgb(0,0,0); /* Fallback color in case the image doesn't load */
+    text-decoration: none;
 }
 .email:hover {
     opacity: 40%;
