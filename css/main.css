@@ -212,7 +212,7 @@ button:hover {
 }
 
 #guy {
-    position: fixed;
+    position: absolute;
     bottom: 10%;
     left: 20%;
     z-index: 1000;
