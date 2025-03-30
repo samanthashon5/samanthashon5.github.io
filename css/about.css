@@ -142,3 +142,12 @@ body {
     height: auto;
     margin: 10px;
 }
+#startop2-gif {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    z-index: 2000;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}    
