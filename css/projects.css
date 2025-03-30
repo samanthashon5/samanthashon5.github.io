@@ -58,6 +58,15 @@ body {
     transition: 0.5s ease-in-out;
 }
 
-.project-title {
+.info-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title-container {
+    font-size: 1.5em;
+    color: white;
+}
     
 
