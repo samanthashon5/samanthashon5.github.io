@@ -85,7 +85,7 @@ body {
 #starright-gif {
     position: absolute;
     top: 0%;
-    left: 10%;
+    right: 0%;
     z-index:2000;
     width:200px;
     height: auto;
