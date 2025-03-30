@@ -33,4 +33,13 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
 
