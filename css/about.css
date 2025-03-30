@@ -69,7 +69,7 @@ body {
     text-align: center;
     font-weight: 400;
     max-width: 80%;
-    margin: 25vh auto 0;
+    margin: 15vh auto 0;
     -webkit-transform:scale(1,2.5); /* Safari and Chrome */
     transform:(2.5,1); /* W3C */
 }
