@@ -73,3 +73,72 @@ body {
     -webkit-transform:scale(1,2.5); /* Safari and Chrome */
     transform:(2.5,1); /* W3C */
 }
+
+#star-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width: 300px;
+    height: auto;
+}
+#starright-gif {
+    position: fixed;
+    top: 8%;
+    left: 10%;
+    z-index:2000;
+    width:200px;
+    height: auto;
+}
+#starright2-gif {
+    position: fixed;
+    top: 8%;
+    left: 20%;
+    z-index: 2000;
+    width: 250px;
+    height: auto;
+}
+#startopright-gif {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    z-index: 2000;
+    width: 200px;
+    height: auto;
+}
+
+#starbottom-gif {
+    position:fixed;
+    top: 15%;
+    left: 0;
+    z-index: 2000;
+    width: 250px;
+    height: auto;
+}
+#starbottom2-gif {
+    position: fixed;
+    top: 25%;
+    left: 0;
+    z-index: 2000;
+    width: 250px;
+    height: auto;
+}
+
+#star2-gif {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+#star2top-gif {
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    z-index: 2000;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
