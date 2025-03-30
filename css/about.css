@@ -76,7 +76,7 @@ body {
 
 #starleft-gif {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 8%;
     z-index: 2000;
     width: 300px;
@@ -87,12 +87,12 @@ body {
     top: 0%;
     right: 0%;
     z-index:2000;
-    width:200px;
+    width:300px;
     height: auto;
 }
 #starright2-gif {
     position: absolute;
-    top: 8%;
+    bottom: 8%;
     left: 20%;
     z-index: 2000;
     width: 250px;
@@ -100,7 +100,7 @@ body {
 }
 #startopright-gif {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 25%;
     z-index: 2000;
     width: 200px;
@@ -109,7 +109,7 @@ body {
 
 #starbottom-gif {
     position: absolute;
-    top: 15%;
+    bottom: 15%;
     left: 0;
     z-index: 2000;
     width: 250px;
@@ -117,7 +117,7 @@ body {
 }
 #starbottom2-gif {
     position: absolute;
-    top: 25%;
+    bottom: 25%;
     left: 0;
     z-index: 2000;
     width: 250px;
@@ -126,7 +126,7 @@ body {
 
 #star2-gif {
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 0;
     z-index: 1000;
     width: 300px;
@@ -135,7 +135,7 @@ body {
 }
 #star2top-gif {
     position: absolute;
-    bottom: 20%;
+    top: 20%;
     right: 0;
     z-index: 2000;
     width: 200px;
