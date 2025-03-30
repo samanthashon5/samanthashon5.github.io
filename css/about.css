@@ -101,7 +101,7 @@ body {
 #starbottomright-gif {
     position: absolute;
     bottom: 0;
-    left: 25%;
+    left: 3%;
     z-index: 2000;
     width: 200px;
     height: auto;
@@ -135,7 +135,7 @@ body {
 }
 #star2top-gif {
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: 0;
     z-index: 2000;
     width: 200px;
@@ -144,7 +144,7 @@ body {
 }
 #startop2-gif {
     position: absolute;
-    top: 25%;
+    top: 30%;
     right: 0;
     z-index: 2000;
     width: 200px;
