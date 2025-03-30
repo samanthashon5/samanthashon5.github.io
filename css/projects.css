@@ -50,7 +50,8 @@ body {
 }
 
 .project-image {
-    width: 40vh;
+    width: 200px;
+    height: auto;
 }
 .project-image:hover {
     opacity: 40%;
