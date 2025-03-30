@@ -41,5 +41,12 @@ body {
     gap: 1rem;
     width: 100%;
 }
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 0;
+}
 
 
