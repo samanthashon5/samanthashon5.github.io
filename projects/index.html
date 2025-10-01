@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="../css/projects.css">
 
   <link rel="icon" href="../assets/icon.png">
 
@@ -22,37 +22,76 @@
   <p id="title">PROJECTS</p>
 
  <div class="project-container">
-    <div class="project" id="arcade" onclick="openPopup(this)">
-            <div class="info-container">
-                <img class="project-image" src="../assets/arcade.png">
-                <div class="title-container">
-                    <p class="project-title">ARCADE MACHINE</p>
-                </div>
-            </div>
+    <div class="project" id="meter" onclick="openPopup(this)">
+        <div class="over-wrap">
+            <img class="project-image" src="../assets/Underground.png">
+            <div class="hidden-title">UNDERGROUND METER</div>
         </div>
+    </div>
 
-        
-        <div class="project" id="game" onclick="openPopup(this)">
-            <div class="info-container">
-                <img class="project-image" src="../assets/game.png">
-                <div class="title-container">
-                    <p class="project-title">ADVENTURE GAME</p>
-                </div>
-            </div>
+    <div class="project" id="finder" onclick="openPopup(this)">
+        <div class="over-wrap">
+            <img class="project-image" src="../assets/finder.png">
+            <div class="hidden-title">FINANCIAL DATA FINDER</div>
         </div>
+    </div>
+
+    <div class="project" id="arcade" onclick="openPopup(this)">
+        <div class="over-wrap">
+            <img class="project-image" src="../assets/arcade1.png">
+            <div class="hidden-title">ARCADE MACHINE</div>
+        </div>
+    </div>
+
+    <div class="project" id="game" onclick="openPopup(this)">
+        <div class="over-wrap">
+            <img class="project-image" src="../assets/game.png">
+            <div class="hidden-title">ADVENTURE GAME</div>
+        </div>
+    </div>
         
-        <div class="project" id="skateboard" onclick="openPopup(this)">
-            <div class="info-container">
-                <img class="project-image" src="../assets/skate.png">
-                <div class="title-container">
-                    <p class="project-title">E-SKATEBOARD</p>
-                </div>
-            </div>
+    <div class="project" id="skateboard" onclick="openPopup(this)">
+        <div class="over-wrap">
+            <img class="project-image" src="../assets/skate1.png">
+            <div class="hidden-title">E-SKATEBOARD</div>
         </div>
    </div>
 
-   <div class="overlay" id="overlay-arcade">
-        <a href="javascript:void(0)" class="closebtn" id="btn-aiot" onclick="closePopup(this)">&times;</a>
+
+
+   <!--------------------------------------------POPUPS---------------------------------------------------->
+
+    <div class = "overlay" id = "overlay-meter">
+    <a href="javascript:void(0)" class="closebtn" id="btn-meter" onclick="closePopup(this)">&times;</a>
+        <div class = "overlay-content">
+            <h1>UNDERGROUND METER</h1>
+            <p>
+                Used Node.js, an API Key, JavaScript, HTML, and CSS to create a Google Chrome Extension that measures the popularity of a user's top 10 artists.
+                <br><br>
+                Through Spotify for Developers, another intern and I were able to create an API Key in order to scrape individual data from each user
+                <br><br> 
+            </p>
+            <a href = "https://github.com/echen078/UndergroundMeter._." target = "_blank">GITHUB</a>
+            <a href = "https://youtu.be/4XxXHG8EN0w" target = "_blank">DEMO</a>
+        </div>
+    </div>
+
+    <div class = "overlay" id = "overlay-finder">
+    <a href="javascript:void(0)" class="closebtn" id="btn-finder" onclick="closePopup(this)">&times;</a>
+        <div class = "overlay-content">
+            <h1>FINANCIAL DATA FINDER</h1>
+            <p>
+                Used pandas and ChatGPT Developer in Python in order to create a program that scrapes financial data from numerous companies simultaneously. 
+                <br><br>
+                The program finds the financial website of the companies, finds the correct pdf containing the data for the specified quarter and year, then outputs the found information in an Excel spreadsheet.
+                <br><br> 
+            </p>
+            <a href = "https://youtu.be/DloFMlfr1uA" target = "_blank">DEMO</a>
+        </div>
+   </div>
+
+    <div class="overlay" id="overlay-arcade">
+    <a href="javascript:void(0)" class="closebtn" id="btn-arcade" onclick="closePopup(this)">&times;</a>
         <div class="overlay-content">
             <h1>ARCADE MACHINE</h1>
             <p>
@@ -68,20 +107,17 @@
                 mappings for a smooth user experience.
                 <br><br>
             </p>
-        <div>
+        <div class = "gallery">
             <img src="../assets/arcade1.png" id="arcade1" alt="arcade1" />
-        </div>
-        <div>
             <img src="../assets/arcade2.png" id="arcade2" alt="arcade2" />
-        </div>
-        <div>
             <img src="../assets/arcade3.png" id="arcade3" alt="arcade3" />
+            <img src="../assets/arcade4.png" id="arcade4" alt="arcade4" />
         </div>
         </div>
-   </div>
+    </div>
 
-   <div class="overlay" id="overlay-game">
-        <a href="javascript:void(0)" class="closebtn" id="btn-aiot" onclick="closePopup(this)">&times;</a>
+    <div class="overlay" id="overlay-game">
+    <a href="javascript:void(0)" class="closebtn" id="btn-game" onclick="closePopup(this)">&times;</a>
         <div class="overlay-content">
             <h1>ADVENTURE</h1>
             <p>
@@ -102,7 +138,7 @@
    </div>
 
    <div class="overlay" id="overlay-skateboard">
-        <a href="javascript:void(0)" class="closebtn" id="btn-aiot" onclick="closePopup(this)">&times;</a>
+    <a href="javascript:void(0)" class="closebtn" id="btn-skate" onclick="closePopup(this)">&times;</a>
         <div class="overlay-content">
             <h1>ELECTRIC SKATEBOARD</h1>
             <p>
@@ -118,14 +154,13 @@
                 mappings for a smooth user experience.
                 <br><br>
             </p>
-        <div>
-            <img src="../assets/skate1.png" id="arcade1" alt="arcade1" />
-        </div>
-        <div>
-            <img src="../assets/skate2.png" id="arcade2" alt="arcade2" />
-        </div>
+        <div class = "gallery">
+            <img src="../assets/skate1.png" id="skate1" alt="skate1" />
+            <img src="../assets/skate2.png" id="skate2" alt="skate2" />
+            <img src="../assets/skate3.png" id="skate3" alt="skate3" />
         </div>
    </div>
 
+   <script src="../js/projects.js"></script>
 </body>
 </html>
