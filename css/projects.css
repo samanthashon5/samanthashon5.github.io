@@ -168,15 +168,12 @@ body {
 .overlay-content h1{
     text-align: center;
     font-weight: 700;
-    display: inline-block;
     -webkit-transform:scale(2.5,1); 
     transform:scale(1,3); 
     font-size: 2.5em;
     letter-spacing: -0.25vh;
     color: white;
     margin-bottom: 5vh;
-    top: 0%;
-    right: 50%;
 }
 
 
@@ -185,7 +182,7 @@ body {
     font-size: 4vh;
     transform:scaleY(2);
     color: white;
-    display: block; 
+    display: block;
     margin-bottom: 1vh;
 }
 
@@ -196,7 +193,7 @@ body {
     font-weight: 100;
     color: white;
     font-family: Playfair;
-    display: block; 
+    display: block;
     transition: 0.3s; 
 }
 
@@ -233,4 +230,8 @@ body {
 .overlay-content .gallery h3{
     color: white;
     font-size: 3vh;
+}
+
+.embed{
+    padding: 5px;
 }
